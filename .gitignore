@@ -1,0 +1,26 @@
+# секреты — никогда не коммитим
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+credentials*.json
+secrets/
+
+# данные респондентов — только на защищённом диске команды, не в репозитории
+data/private/
+*.xlsx
+*.xls
+*.csv
+*.docx
+*.pdf
+*.sqlite
+.envrc
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
